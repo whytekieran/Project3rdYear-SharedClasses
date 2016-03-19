@@ -11,7 +11,7 @@ public class House implements Serializable
 	//Instance Variables
 	private int id = 0;
 	private Address address = new Address(); 
-	private char rentOrSale;
+	private char rentOrSale = 'x';
 	
 	//Getters and Setters
 	public int getId() 
